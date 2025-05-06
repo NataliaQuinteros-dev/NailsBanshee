@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/germanica-family');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "PlainGermanica", sans-serif;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f3533;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fdd7fc;
+    color: black;
+  }
+  
+  .active {
+    background-color: #bbabd8;
+  }
+  header{
+    background-color: black;
+    text-align: center;
+  }
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+  footer{
+    background-color: #2f3533;
+    text-align: center;
+    margin-bottom: auto;
+    
+  }
+  table{
+    width: 100%;
+    border-style: solid;
+    border-color: #bbabd8;
+  }
+  tr,td{
+    border-style: solid;
+    border-color: #bbabd8;
+  }
+  .reserva{
+    background-color: #bbabd8;
+    color: black;
+  }
+  .deposito{
+    background-color: #fdd7fc;
+    color: black;
+  }
+  .cancelacion{
+    background-color: aliceblue;
+    color: black;
+  }
+  .tardanza{
+    background-color: #bbabd8;
+    color: black;
+  }
+  .imgConBorde{
+    border: #bbabd8 solid;
+    border-radius: 10px;
+  }
